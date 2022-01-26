@@ -18,4 +18,13 @@ public class Word {
     public Word(@NonNull String word) {this.mWord = word;}
 
     public String getWord(){return this.mWord;}
+
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }
